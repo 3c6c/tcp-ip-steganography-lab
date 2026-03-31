@@ -19,6 +19,6 @@ def has_pkt(pkt):
 
                     last_char = char
                     sentence += char
-                    print(char, end="")
+                    print(char, end="", flush=True)
 
 sniff(iface="lo", prn=has_pkt, filter="tcp and port 5000", store=0)
