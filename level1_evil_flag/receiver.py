@@ -3,6 +3,7 @@ from scapy.all import *
 
 sentence = ""
 last_char = None
+delimeter = "}"
 
 def has_pkt(pkt):
     global sentence, last_char
@@ -20,5 +21,8 @@ def has_pkt(pkt):
                     last_char = char
                     sentence += char
                     print(char, end="", flush=True)
+                    if last_char == delimeter:
+                        print("\n[+] Message complete:", sentence)
+                        exit(0)
 
 sniff(iface="lo", prn=has_pkt, filter="tcp and port 5000", store=0)
