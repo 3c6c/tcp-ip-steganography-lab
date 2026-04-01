@@ -1,8 +1,8 @@
-# 📡 Level 2: Network Steganography - Header Field Encoding (TTL)
+# 📡 Level 3: Network Steganography - Timing-Based Encoding
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Difficulty-Beginner-brightgreen"/>
-  <img src="https://img.shields.io/badge/Concept-Header%20Encoding-blue"/>
+  <img src="https://img.shields.io/badge/Difficulty-Advanced-red"/>
+  <img src="https://img.shields.io/badge/Concept-Timing%20Channels-blue"/>
   <img src="https://img.shields.io/badge/Tool-Scapy-orange"/>
 </p>
 
