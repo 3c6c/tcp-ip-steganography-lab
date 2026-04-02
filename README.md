@@ -8,6 +8,10 @@
   <img src="https://img.shields.io/badge/Type-Covert%20Channels-success" alt="Covert Channels Badge">
 </p>
 
+<p align="center">
+  <img src="demo/output2.gif" alt="Network Steganography Lab Demo" width="800">
+</p>
+
 ---
 
 ## 🌌 Overview
