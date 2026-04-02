@@ -3,7 +3,7 @@
 import random, time
 from scapy.all import *
 
-flag = "Time never stops for anybody!"
+flag = "Flag!"
 
 def send_packet():
     send(
@@ -52,7 +52,7 @@ for char in flag:
         elif int(bit) == 1:
             send_packet()
             print("Sleeping for 500 milliseconds")
-            time.sleep(0.5)
+            time.sleep(0.6)
             print("Slept for 500 milliseconds")
             print("Sent the packet")
 

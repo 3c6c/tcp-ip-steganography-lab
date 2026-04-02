@@ -22,7 +22,7 @@ def do_something(pkt):
             last_packet_time = current_packet_timestamp
             return
 
-        if delay < 0.4:
+        if delay < 0.45:
             bit = "0"
         else:
             bit = "1"
